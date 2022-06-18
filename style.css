@@ -12,20 +12,20 @@ body {
   height: 90vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   flex-direction: column;
+  color: #EFECEC;
 }
 
 main {
   width: 450px;
   height: 120px;
   display: flex;
+  color: #EFECEC;
   letter-spacing: 2px;
-  color: #efecec;
 }
 
 .box {
   padding: 1rem;
   font-size: 3rem;
-  color: #efecec;
 }
 
 .dd {

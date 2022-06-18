@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #303030;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ main {
   width: 450px;
   height: 120px;
   display: flex;
-  color: aqua;
+  color: #EFECEC;
   letter-spacing: 2px;
 }
 

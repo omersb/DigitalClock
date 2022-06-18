@@ -8,7 +8,7 @@ const getTime = () => {
   hours.innerHTML = new Date().getHours() % 12;
   minute.innerHTML = new Date().getMinutes();
   second.innerHTML = new Date().getSeconds();
-  date.innerHTML = new Date().getDate();
+  date.innerHTML = new Date().toDateString();
 
   if (new Date().getHours() > 12) {
     amPm.textContent = "PM";

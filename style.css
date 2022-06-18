@@ -11,22 +11,24 @@ body {
   align-items: center;
   height: 90vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-direction: column;
 }
 
 main {
   width: 450px;
   height: 120px;
   display: flex;
-  color: #EFECEC;
   letter-spacing: 2px;
+  color: #efecec;
 }
 
 .box {
-    padding: 1rem 0.3rem;
-    font-size: 3rem;
+  padding: 1rem;
+  font-size: 3rem;
+  color: #efecec;
 }
 
 .dd {
-    padding: 1rem 0;
-    font-size: 3rem;
+  padding: 1rem 0;
+  font-size: 3rem;
 }

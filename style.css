@@ -10,8 +10,24 @@ body {
   justify-content: center;
   align-items: center;
   height: 90vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {
   border: 1px solid red;
+  width: 450px;
+  height: 120px;
+  display: flex;
+  color: aqua;
+  letter-spacing: 2px;
+}
+
+.box {
+    padding: 1rem 0.3rem;
+    font-size: 3rem;
+}
+
+.dd {
+    padding: 1rem 0;
+    font-size: 3rem;
 }
